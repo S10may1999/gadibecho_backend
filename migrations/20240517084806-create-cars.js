@@ -12,6 +12,9 @@ module.exports = {
       uid: {
         type: Sequelize.STRING
       },
+      cid: {
+        type: Sequelize.STRING
+      },
       car_name: {
         type: Sequelize.STRING
       },
@@ -25,7 +28,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       offer_price: {
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
